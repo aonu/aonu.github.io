@@ -4,7 +4,7 @@ email: info@healthrhythms.com
 description: > # this means to ignore newlines until "baseurl:"
   Description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "/hrsite-jekyll" # the base hostname & protocol for your site
+url: "http://aonu.github.io" # the base hostname & protocol for your site
 disqus_shortname: michaelchelennet
 
 # Owner/author information
