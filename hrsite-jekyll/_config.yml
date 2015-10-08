@@ -1,0 +1,50 @@
+# Site settings
+title: Health Rhytms
+email: info@healthrhythms.com
+description: > # this means to ignore newlines until "baseurl:"
+  Description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "/hrsite-jekyll" # the base hostname & protocol for your site
+disqus_shortname: michaelchelennet
+
+# Owner/author information
+owner:
+  name:           Health Rhytms
+  avatar:         avatar.jpg
+  bio:            "A person"
+  email:          info@healthrhythms.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        w
+  facebook:       
+  github:         w
+  stackexchange:  
+  linkedin:       
+  instagram:        
+  flickr:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    +HealthRhytms
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-XXXXX-X
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:    
+
+# Amount of post to show on home page
+paginate: 5
+
+# Build settings
+markdown: kramdown
+currentyear: 2015
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Background image to be tiled on all pages
+background:
+
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
